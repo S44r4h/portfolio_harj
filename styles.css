@@ -1,0 +1,71 @@
+:root {
+    --first_color: #818c88;
+}
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-family: "roboto", sans-serif;
+}
+
+
+.about-img img {
+    max-width: 70%;
+    max-height: 70%;
+    position: relative;
+    z-index: 1;
+}
+
+.header-name {
+    font-size: 198px;
+    font-family: "roboto", sans-serif;
+}
+
+
+
+
+.background-shape {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(156, 201, 201);
+    border-radius: 62% 38% 36% 64% / 57% 85% 15% 43%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 50px;
+}
+
+.skills {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+   
+}
+
+
+
+
+.project-info h3, p {
+    padding: 4%;
+}
+
+#project_image {
+    border-radius: 16px;
+}
+
+
+.icon {
+    color: black;
+    font-size: 100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header-name {
+        font-size: 110px;
+    }
+  }
